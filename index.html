@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasmoto Store</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+</head>
+<body>
+  <header>
+      <nav>
+        <ul>
+          <li><a href="#brush">Brushes</a></li>
+          <li><a href="#frame">Frames</a></li>
+          <li><a href="#paint">Paints</a></li>
+          <li class="contact"><a href="#form">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="./img/logo.png" alt="Dasmoto logo" id="logo">
+    <h1>
+      Dasmoto's Art and Craft
+    </h1>
+  </header>
+
+  <section id="brush">
+    <h3>Brushes</h3> 
+    <img src="./img/hacksaw.jpg" alt="Hacksaw Brushes">
+    <h4>Hacksaw Brushes</h4>
+    <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span>Starting at $3.00 / brush.</span>
+    </p>
+  </section>
+  <section id="frame">
+    <h3>Frames</h3>
+    <img src="./img/frames.jpg" alt="Art Frames">
+    <h4>Art Frames (assorted)</h4>
+    <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span>Starting at $2.00 / frame.</span>
+    </p>
+  </section>
+  <section id="paint">
+    <h3>Paint</h3>
+    <img src="./img/finnish.jpg" alt="Finnish paint">
+    <h4>Clean Finnish Paint</h4>
+    <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span>Starting at $5.00 / tube.</span></p>
+  </section>
+  <br>
+  <section class="info">
+    <h4>Get in Touch</h4>
+    <form action="contact.html" method="GET" id="form">
+      <label for="name">Name : </label>
+      <input type="text" id="name" name="name" title="Name" required>
+      <br>
+      <label for="email">E-Mail : </label>
+      <input type="text" id="email" name="email">
+      <br>
+      <label for="phone">Phone : </label>
+      <input type="number" id="phone" name="phone">
+      <br>
+      <label for="message">Any message for us?</label>
+      <br>
+      <textarea name="message" id="message" cols="40" rows="10"></textarea>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <br>
+  <footer>
+    &copy; Dasmoto's Art and Craft
+  </footer>
+</body>
+</html>

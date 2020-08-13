@@ -1,0 +1,105 @@
+/*Header styling*/
+header {
+  background-image: url(./img/pattern.jpg);
+  padding-bottom: 5px;
+}
+header h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: khaki;
+  top: 8rem;
+}
+nav {
+  top : 0;
+  width : 100%;
+  border-radius: 10px;
+}
+#logo {
+  display : block;
+  width : 100px;
+  border-radius: 75px;
+  border-width: thin;
+  border-color: grey;
+  border-style: solid;
+  margin-left: 10px;
+  top: 8rem;
+  left: 30rem;
+}
+/*navbar*/
+nav ul {
+  width: fit-content;
+  float: right;
+  margin-right : 5px;
+}
+nav li {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: rgb(87, 5, 126);
+  border-radius: 10px;
+}
+
+nav a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #e7d6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav .contact {
+  background-color: rgb(35, 77, 156);
+}
+nav .contact:hover {
+  background-color: rgb(4, 2, 83);
+}
+
+/*Section common styling*/
+section h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+/*individual section headings*/
+#brush h3 {
+  background-color: mediumspringgreen;
+}
+#frame h3{
+  background-color: lightcoral;
+}
+#paint h3{
+  background-color: skyblue;
+}
+
+/*Information form*/
+.info {
+  text-align: center;
+  background-color: yellow;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.info h4 {
+  font-size: 30px;
+}
+
+footer {
+  position: sticky;
+  background-color: rgb(17, 17, 17);
+  color: #d2d2d6;
+  text-align: right;
+  padding: 90px 10px 0 50px;
+  font-size: 13px;
+}
